@@ -47,11 +47,7 @@ button.addEventListener("click", function () {
   const interval = setInterval(function () {
     const timeLeft = animationEnd - Date.now();
 
-    // if (timeLeft <= 0) {
-    //   clearInterval(interval);
-    //   window.location.href = "end.html";
-    //   return;
-    // }
+
 
     const particleCount = 50 * (timeLeft / duration);
 
